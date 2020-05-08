@@ -4,8 +4,10 @@ var n2 = Number(prompt('Digite outro número: '))
 var soma = n1 + n2  //Soma das variáveis 
 alert(`A soma entre ${n1} e ${n2} é ${soma}`)  //Template string
 window.alert(`É um prazer te conhecer ${nome}`) //Concatenação
+document.write(`Seu nome tem ${nome.length} letras!`)
 var s = "Linha de texto"
 s.length // Conta tamanho da string
 s.toUpperCase() //Coloca em maiúsculo
 s.toLowerCase() //Coloca em minúsculo
 alert(`Variável s: ${s.toUpperCase()}`)
+var s1 
